@@ -1,16 +1,15 @@
+crequire('dotenv').config()
 const express = require('express')
 const app = express()
-//first route
+
+app.use('/places', require('./controllers/places'))
+
 app.get('/', (req, res) => {
     res.send('Hello world!')
 })
-//second route
-app.get('*', (req,res) => {
 
+app.get('*', (req, res) => {
+    res.status(404).send('<h1>404 Page</h1>')
 })
 
-//404 page
-app.get('*', (req,res) => {
-    res.send('<h1>404 Page</h1>')
-})
 app.listen(process.env.PORT)
