@@ -1,20 +1,13 @@
-const React = require('react')
-
-function Def(html) {
-    retun (
+function Def (html) {
+    return (
         <html>
             <head>
                 <title>Title</title>
             </head>
             <body>
-                {html.childre}
+                {html.children}
             </body>
         </html>
     )
-}
-
-
-
-
-
-module.exports = Def
+  }
+  
