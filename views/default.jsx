@@ -10,6 +10,9 @@ function Def (html) {
             </head>
             <body>
                 {html.children}
+                <a href="/places">
+</a>
+
             </body>
         </html>
     )

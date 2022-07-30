@@ -10,6 +10,7 @@ function home() {
           <img src="/images/salad.jpg" alt="Salad" />
         </div>
         <div>
+          <img src="/public/images/salad.jpg" alt="Salad" />
           Photo By:<a href="Author_link">Eiliv-Sonas Aceron</a>
           <a href="https://unsplash.com/photos/ZuIDLSz3XLg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
             Unsplash
